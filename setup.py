@@ -5,11 +5,12 @@ classifiers = [
   "Intended Audience :: Developers",
   'Operating System :: Microsoft :: Windows :: Windows 10',
   'Operating System :: Microsoft :: Windows',
+  'Operating System :: POSIX :: Linux',
   "Intended Audience :: Developers",
-  'Programming Language :: Python :: 3'
+  'Programming Language :: Python :: 3',
   'License :: OSI Approved :: MIT License',
 ]
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 __author__ = 'Alawi Hussein Adnan Al Sayegh'
 __description__ = 'library of input functions. and an input API'
 __license__ = """
@@ -33,5 +34,5 @@ setup(
   classifiers=classifiers,
   keywords='inputs,inputing,inputed,input,inputtools,tools,toolkit,tooling,useful_input,useful', 
   packages=find_packages(),
-  install_requires=['stopit','psutil'] 
+  install_requires=[] 
 )
